@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 吴一夫
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Yi Fu Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yifu
+last_name: Wu
 
 # Status emoji
 status:
@@ -20,92 +20,97 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Applied Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Amazon
+    url: https://www.amazon.science/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:wuyifu2f@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/nnonno
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/yifu-wu-09609779/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?hl=en&user=DJw9oO0AAAAJ
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-5132-2980
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Large Language Model
+  - Information Security
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD in Cyber-Physical System
+    institution: Purdue University
+    date_start: 2019-08-20
+    date_end: 2024-05-12
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Data-Driven Computing and Networking Solution for Securing Cyber-Physical Systems_. Supervised by [Prof Jin Wei-Kocsis](https://polytechnic.purdue.edu/profile/kocsis0). Presented papers at 7 conference papers and journels on IEEE conferences.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      url: "https://hammer.purdue.edu/articles/thesis/Data-Driven_Computing_and_Networking_Solution_for_Securing_Cyber-Physical_Systems/25744824?file=46078863"
+  - area: MS in Computer Science
+    institution: Iowa State University
+    date_start: 2017-08-15
+    date_end: 2018-01-31
+    summary: Natural Language Processing, Word Embedding, Information Retrival
+  - area: PhD in Electrical & Computer Engineering
+    institution: University of Akron
+    date_start: 2015-08-15
+    date_end: 2019-07-31
+    summary: Power System Communication, Computer Networking, Machine Learning
+  - area: MEng in Electrical Engineering
+    institution: University of Limerick
+    date_start: 2014-01-15
+    date_end: 2012-06-01
+    summary: Circuit Design, FPGA, Design for Testing
+  - area: BS in Automation
+    institution: University of Limerick
+    date_start: 2007-09-01
+    date_end: 2011-07-01
+    summary: Control Theory, Power System, Robotics
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Applied Scientist
+    company_name: Amazon
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2025-04-14
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Detect sensitive content
+      - Filter or prevent sensitive content
+  - position: NLP Data Scientist
+    company_name: University of Colorado Anschutz Medical Campus
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-08-20
+    date_end: 2025-03-31
+    summary: |
+      Responsibilities include:
+      - Neural symbolic reasoning on clinical text
+      - Fine-tuning large language models (LLMs) 
+      - Reasoning on medical knowledge graph
+  - position: Machine Learning Engineer
+    company_name: SuperInBox
+    company_url: ''
+    company_logo: ''
+    date_start: 2024-06-15
+    date_end: 2024-08-15
+    summary: |
+      Responsibilities include:
+      - Build pipeline of LLM-based AI newsletter generation on Azure
+      - Cluster and filter tremendous amounts of news resources from web-crawling
+      - Generate news letter via chain of thought reasoning process in LLM
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -114,40 +119,35 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
+        percent: 100
+        icon: devicon/python
+      - name: Machine Learning
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: devicon/android
+      - name: Linux
         description: ''
-        percent: 40
-        icon: circle-stack
+        percent: 80
+        icon: devicon/linux
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Hiking
-        description: ''
-        percent: 60
+        description: Mostly day hike and rarely backpacking
+        percent: 75
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
       - name: Photography
-        description: ''
-        percent: 80
+        description: check my Unsplash [https://unsplash.com/@nnonno](https://unsplash.com/@nnonno)
+        percent: 75
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
+    percent: 100
+  - name: English
     percent: 75
-  - name: Portuguese
-    percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
