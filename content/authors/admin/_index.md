@@ -73,7 +73,7 @@ education:
     date_end: 2012-06-01
     summary: Circuit Design, FPGA, Design for Testing
   - area: BS in Automation
-    institution: University of Limerick
+    institution: Harbin Institute of Technology
     date_start: 2007-09-01
     date_end: 2011-07-01
     summary: Control Theory, Power System, Robotics
