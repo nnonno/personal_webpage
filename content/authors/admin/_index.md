@@ -86,9 +86,9 @@ work:
     date_start: 2025-04-14
     date_end: ''
     summary: |
-      Responsibilities include:
-      - Detect sensitive content
-      - Filter or prevent sensitive content
+      Responsible AI solutions for LLM include:
+      - LLM guardrails
+      - Massive Text Embedding Model
   - position: NLP Data Scientist
     company_name: University of Colorado Anschutz Medical Campus
     company_url: ''
@@ -96,7 +96,7 @@ work:
     date_start: 2024-08-20
     date_end: 2025-03-31
     summary: |
-      Responsibilities include:
+      Meidical NLP research works include:
       - Neural symbolic reasoning on clinical text
       - Fine-tuning large language models (LLMs) 
       - Reasoning on medical knowledge graph
